@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- link rel="icon" type="image/jpg" href="images/imgicon.jpg"/-->
+<title>SSD Typing Services</title>
+<meta charset="UTF-8">
+<meta name="author" content="Sai">
+<meta name="description" content="SSD Type Centre Web page">
+<meta name="keywords" content="HTML,CSS,JS">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet"
+	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link rel="shortcut icon" type="images/jpg" href="images/icon1.png" />
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/slideShow.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<img src="images/image1.jpg" id="iconImage" />
+			<noti>SSD Typing Services</noti>
+			<button id="contactUs">Contact us</button>
+		</div>
+		<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div id="dialogHeader">
+					<dHeader>CONTACT US</dHeader>
+				</div>
+				<div id="dialogContent">
+					<img src="images/typist.jpg" id="typistt"/>
+					<div id="dContent"><br>M.Padmanaban<br>SRI SARADHA DEVI TYPE CENTRE,<br>
+					No 10,Gopalapuram 3rd Street,<br>
+					Coimbatore - 641 004<br><br><br>Phone No : 9344779857<br>Whatsapp No:9626432317
+					</div>
+				</div>
+				<div id="dialogFooter">
+					<dFooter></dFooter>
+				</div>
+			</div>
+
+		</div>
+		<!-- <div id="dialog" title="Office Information">
+			<p>
+				SRI SARADHA DEVI TYPE CENTRE,<br> No 10,Gopalapuram 3rd Street,<br>
+				Coimbatore - 641 004<br>
+			</p>
+		</div> -->
+		<div id="body">
+			<div id="text">
+				<i><marquee direction="left" id="marque">SRI SARADHA
+						DEVI TYPING CENTRE,COIMBATORE </marquee></i> <img class="myImages" id="img1"
+					src="images/back4.jpg">
+				<div id="quotes">Save your work time,the more our fingers got
+					Skilled!!</div>
+				<div id="extension">Type..Draft...Translate....</div>
+
+			</div>
+			<div id="services">
+				<div id="sec1">
+					<p id="para">The kinds of Service we provide include,
+					<ul>Professional Typing works.
+					</ul>
+					<ul>Professional Drafting
+					</ul>
+					<ul>Translation from both English to Tamil and Tamil to
+						English.
+					</ul>
+					<ul>Preparing documents for registration and applying a token
+						in online via tamilnadu registration website tnreginet portal.
+					</ul>
+					<ul>Court works
+					</ul>
+					<ul>E-filing petitions in Police Stations
+					</ul>
+					</p>
+
+				</div>
+				<div id="sec2">
+					<img class="mySlides" id="slides" src="images/typing.jpg"> <img
+						class="mySlides" id="slides" src="images/tnreginet.jpg"> <img
+						class="mySlides" id="slides" src="images/drafting.jpg"> <img
+						class="mySlides" id="slides" src="images/translation.jpg"> <img
+						class="mySlides" id="slides" src="images/court.jpg">
+				</div>
+
+				<script>
+					var myIndex = 0;
+					carousel();
+				</script>
+				<script>
+					var modal = document.getElementById("myModal");
+
+					// Get the button that opens the modal
+					var btn = document.getElementById("contactUs");
+
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+			</div>
+		</div>
+		<div id="footer">
+			<f> @2020 SSD Typing Services. All Rights reserved</f>
+		</div>
+
+	</div>
+</body>
+
+</html>
